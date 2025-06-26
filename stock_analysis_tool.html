@@ -10,48 +10,71 @@
 
 <header>
     <h1>Aaron's Finance Models</h1>
-    <p>Finance Analyst | Python Developer | Data Enthusiast</p>
+    <p>Finance Analyst | Learning Python Developer | Data Enthusiast</p>
     <a href="https://www.linkedin.com/in/aaron-johall/" target="_blank">linkedin.com/in/aaronjohall</a>
-    </header>
+</header>
 
 <nav>
     <a href="index.html">Home</a>
-    <a href="models.html">Models</a>
+    <a href="models.html">Models/Tools</a>
     <a href="blog.html">Blog</a>
+    <a href="glossary.html">Glossary</a>
     <a href="https://github.com/aaronjohall" target="_blank">GitHub</a>
 </nav>
 
-<section id="Models">
-    <h2>My Models</h2>
-    <p>Created with python; all models will have linked a repository.</p>
-    <a href="https://github.com/aaronjohall/simplestockanalysis" target="_blank">Click here to access the repository.</a>
-    <div class="tool #1">
+<section class="tool-layout">
+    <div class="tool-text">
+        
+        <h2>My Models/Tools</h2>
+        <p>Created with python; all models will have linked a repository.</p>
+        <a href="https://github.com/aaronjohall/simplestockanalysis" target="_blank">Click here to access the repository.</a>
+        
         <h3>Stock Analysis Tool</h3>
-        <p>Input a stock ticker, retrieve financial data, calculate basic ratios and output key insights.</p>
+        <p>Input a stock ticker, retrieves financial data using <code>yfinance</code>, calculates basic ratios and outputs key insights.</p>
+        
         <h4>What can be viewed with this tool?</h4>
-        <p>- Ticker Symbol e.g. (COST for Costco)</p>
-        <p>- Long Name</p>
-        <p>- Sector</p>
-        <p>- Current Price</p>
-        <p>- Market Cap</p>
-        <p>- trailingPE</p>
-        <p>- forwardPE</p>
-        <p>- Price to Book</p>
-        <p>- profitMargins</p>
-        <p>- Return on Equity</p>
-        <p>- beta</p>
-        <p>- dividendYield</p>
-        <p>- 52WeekChange</p>
+        <ul>    
+            <li>Ticker Symbol e.g. (COST for Costco)</li>
+            <li>Long Name</li>
+            <li>Sector</li>
+            <li>Current Price</li>
+            <li>Market Cap</li>
+            <li>trailingPE</li>
+            <li>forwardPE</li>
+            <li>Price to Book</li>
+            <li>profitMargins</li>
+            <li>Return on Equity</li>
+            <li>beta</li>
+            <li>dividendYield</li>
+            <li>52WeekChange</li>
+        </ul>
+    
+    </div>
+    
+    <div class="tool-image">   
         <p><u>Example data as of 26/06/2025</u> - on VSCode</p>
-        <img src="stock_analysis_output.png" alt="Output for COST">
+        <a href="stock_analysis_input.png" target="_blank">
+        <img src="stock_analysis_input.png" alt="Input for COST"></a>
+        <a href="stock_analysis_output.png" target="_blank">
+        <img src="stock_analysis_output.png" alt="Output for COST"></a>
     </div>
 
+<section class="tool-details">
+    <div class="tool-text">
+        <h2>Why use this tool?</h2>
+        <p>It will feedback an instant snapshot of all the indicators above from <code>yfinance</code>, using real-time data. Not sure what 'trailingPE' or 'beta' means? Click on the hyperlinks above or headover to the glossary page for a simple or an in-dept explanation on each term.</p>
+        <h4>How can I change to add or remove certain metrics?</h4>
+        <p>Head over to my <a href="https://github.com/aaronjohall" target="_blank"> GitHub </a> or <a href="https://github.com/aaronjohall/simplestockanalysis" target="_blank">Click Here</a> and clone my repo to start making your own changes.</p>
+
+    </div>
+
+</section>
 
 
 
 
 
-
+</section>
 
 
 
